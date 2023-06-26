@@ -75,12 +75,12 @@ label {
 }
 
 #reset_button:active {
-  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%),
+  box-shadow: inset 0 4px 4px 0 rgb(60 64 67 / 30%),
     0 8px 12px 6px rgb(60 64 67 / 15%);
   outline: none;
 }
 
 #reset_button:focus {
   outline: none;
-  border: 2px solid #4285f4;
+  border: 1px solid gray;
 }
